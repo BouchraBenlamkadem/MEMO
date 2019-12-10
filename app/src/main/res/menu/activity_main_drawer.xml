@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Catégories">
+        <menu>
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/favoris"
+            android:icon="@android:drawable/btn_star"
+            android:title="Favoris" />
+        <item
+            android:id="@+id/etudes"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Etudes" />
+        <item
+            android:id="@+id/divertissement"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Divertissement" />
+        <item
+            android:id="@+id/taches"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="Tâches" />
+        <item
+            android:id="@+id/secret"
+            android:icon="@android:drawable/ic_lock_lock"
+            android:title="Secrets" />
+
+
+        <item
+            android:id="@+id/tout"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Tout" />
+        <item
+            android:id="@+id/nocat"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Non catégorisés" />
+
+</group>
+        </menu>
+    </item>
+    <item android:title="Réglages">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/modif_pattern"
+                    android:icon="@android:drawable/ic_menu_manage"
+                    android:title="Modifier pattern" />
+            </group>
+        </menu>
+
+    </item>
+</menu>

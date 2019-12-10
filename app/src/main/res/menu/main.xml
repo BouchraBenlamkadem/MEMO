@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/supprimer"
+        android:orderInCategory="100"
+        android:title="supprimer"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/fav"
+        android:orderInCategory="99"
+        android:title="ajouter aux favoris"
+        app:showAsAction="never" />
+    <item
+    android:id="@+id/cat"
+    android:orderInCategory="98"
+    android:title="modifier catégorie"
+    app:showAsAction="never" />
+
+</menu>

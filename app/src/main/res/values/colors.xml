@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d0a577</color>
+    <color name="colorPrimaryDark">#a07547</color>
+    <color name="colorPrimary2">#046d74</color>
+    <color name="colorPrimaryDark2">#045358</color>
+    <color name="colorAccent">#00a395</color>
+    <color name="colorBack">#b7c4c4</color>
+    <color name="colorCorrectLine">#008000</color>
+    <color name="colorNormalLine">#FFFF</color>
+    <color name="colorWrongLine">#FF0000</color>
+    <color name="darkbackgrey">#8d664b</color>
+    <color name="text_color_secondary">#a1000000</color>
+</resources>
